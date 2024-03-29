@@ -41,7 +41,7 @@ void loop()
     Serial.write(recebido);  
   }
 
-  if (recebido == 0)
+  if (recebido == '0')
   {
     digitalWrite(2, LOW)
   } 
